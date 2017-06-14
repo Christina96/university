@@ -7,7 +7,7 @@ Here you can find some of my university assignments.
 
 They are from course **Algorithms and Data Structures** writted by [Panos Louridas](https://github.com/louridas), *Department of Management Science and Technology*, Athens University of Economics and Business. 
 
-### Find networks in a graph
+### Assignment: Find networks in a graph
 
 You can find the assignment [here](https://github.com/dmst-algorithms-course/assignment-2016-1).
 

@@ -27,7 +27,7 @@ create a dictionary with the parts of file and finds the trusses between neighbo
 * The `size_of_trusses` is the size of networks.
 
 
-Example: for the file [barabasi_albert_graph_1500.txt](barabasi_albert_graph_1500.txt) returns:
+**Example:** for the file [barabasi_albert_graph_1500.txt](barabasi_albert_graph_1500.txt) returns:
 
 ```
 (0, 3, 4, 5)

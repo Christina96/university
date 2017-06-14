@@ -27,7 +27,7 @@ creates a dictionary with the parts of file and finds the trusses between neighb
 * The `size_of_trusses` is the size of networks.
 
 
-**Example:** For the file [barabasi_albert_graph_1500.txt](barabasi_albert_graph_1500.txt) 
+**Example:** For the file [barabasi_albert_graph_1500.txt](find_networks_in_a_graph/barabasi_albert_graph_1500.txt) 
 `python trusses.py barabasi_albert_graph_1500.txt 4` the output is:
 
 ```
@@ -90,12 +90,11 @@ or:
 TACTCGGACGAGATCACCTGGTC
 ```
 If you want to verify your result you can create a function that:
+
 * Checks if all the fragments present in the input file exist in the final result.
 * All the fragments from the final sequence exists in the input file.
 
+**More information:**
 
-
-
-
-
-
+* Phillip E. C. Compeau, Pavel A. Pevzner, and Glenn Tesler, How to apply de Bruijn graphs to genome assembly, Nature Biotechnology, Vol. 29, no. 11, November 2011 (http://www.nature.com/nbt/journal/v29/n11/full/nbt.2023.html).
+* Pavel A. Pevzner, Haixu Tang, and Michael S. Waterman, An Eulerian path approach to DNA fragment assembly, Proceedings of the National Academy of Sciences (PNAS), Vol. 18, no. 17, August 14, 2001 (http://www.pnas.org/content/98/17/9748.long).

@@ -1,6 +1,7 @@
 """
 Read a file from command prompt, create a dictionary with the parts of file and
 finding the trusses between neighbors.
+author: Christina Chaniotaki
 """
 
 import argparse  # read the file

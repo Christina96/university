@@ -69,7 +69,7 @@ ATG
 AAT
 ...
 ```
-**Example:** For the file [fragment_file.txt](fragment_file.txt)
+**Example:** For the file [fragment_file.txt](assembling_genome/fragment_file.txt)
 `python dna_assembly.py fragments_file.txt` the output is: 
 ```
 CTCGGACGAGATCACTGGTCTAC

@@ -27,7 +27,8 @@ create a dictionary with the parts of file and finds the trusses between neighbo
 * The `size_of_trusses` is the size of networks.
 
 
-**Example:** for the file [barabasi_albert_graph_1500.txt](barabasi_albert_graph_1500.txt) returns:
+**Example:** For the file [barabasi_albert_graph_1500.txt](barabasi_albert_graph_1500.txt) 
+`python trusses.py barabasi_albert_graph_1500.txt 4`, returns:
 
 ```
 (0, 3, 4, 5)
@@ -41,3 +42,18 @@ create a dictionary with the parts of file and finds the trusses between neighbo
 
 * Jonathan Cohen, Trusses: Cohesive Subgraphs for Social Network Analysis, 2008 (http://www.csee.ogi.edu/~zak/cs506-pslc/trusses.pdf).
 * Jonathan Cohen, Graph Twiddling in a MapReduce World, Computers in Science and Engineering, Vol. 11, issue 4, pp. 29-41, July/August 2009 (http://lintool.github.io/UMD-courses/bigdata-2015-Spring/content/Cohen_2009.pdf).
+
+### Assignment: Find networks in a graph
+
+
+
+
+
+
+
+
+
+
+
+
+

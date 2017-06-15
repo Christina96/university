@@ -98,3 +98,73 @@ If you want to verify your result you can create a function that:
 
 * Phillip E. C. Compeau, Pavel A. Pevzner, and Glenn Tesler, How to apply de Bruijn graphs to genome assembly, Nature Biotechnology, Vol. 29, no. 11, November 2011 (http://www.nature.com/nbt/journal/v29/n11/full/nbt.2023.html).
 * Pavel A. Pevzner, Haixu Tang, and Michael S. Waterman, An Eulerian path approach to DNA fragment assembly, Proceedings of the National Academy of Sciences (PNAS), Vol. 18, no. 17, August 14, 2001 (http://www.pnas.org/content/98/17/9748.long).
+
+### Assignment: Musical Rhythms
+
+You can find the assignment [here](https://github.com/dmst-algorithms-course/assignment-2016-3).
+
+In this program user can work with Euclidean rhythms. User can do different things depending on the input.
+The program read a file from command prompt like:
+`musical_rythms.py [-s SLOTS] [-p PULSES] [-r RECOGNIZE] [-l LIST_RYTHMS]`
+
+* If the user gives `-s SLOTS` and `-p PULSES` the program finds the rhythm that correspond to these parameters. `PULSES` is the number of hits and `SLOTS` the length of the rhythm. **For example:** 
+
+```
+python musical_rythms.py -s 12 -p 7
+E(7,12) = [101101011010] = (2122122) It is a common West African bell pattern. For example, it is used in the Mpre rhythm of the Ashanti people of Ghana. Started on the seventh (last) onset, it is a Yoruba bell pattern of Nigeria, a Babenzele pattern of Central Africa, and a Mende pattern of Sierra Leone.
+```
+
+* If the user gives `-r RECOGNIZE` the `RECOGNIZE` is the rhtyhm in binary form and the program try to recognize if it is a Euclidean rhythm or not and print an appropriate message. **For Example:**
+
+```
+python musical_rythms.py -r 101101011010
+E(7,12) = [101101011010] = (2122122) It is a common West African bell pattern. For example, it is used in the Mpre rhythm of the Ashanti people of Ghana. Started on the seventh (last) onset, it is a Yoruba bell pattern of Nigeria, a Babenzele pattern of Central Africa, and a Mende pattern of Sierra Leone.
+```
+
+```
+python musical_rythms.py -r 10010010010
+E(4,11) = [10010010010] = (3332) It is the metric pattern used by Frank Zappa in his piece titled Outside Now.
+It is a reverse Euclidean string.
+```
+
+```
+python musical_rythms.py -r 10010010011
+Not a Euclidean rhythm.
+```
+* If the user gives `-l LIST_RYTHMS` the `LIST_RYTHMS` is the rhythm in binary form and the program finds all the rhythms with the same length, sorted by Hamming distance and serial number of pulses. **For example:**
+
+```
+python musical_rythms.py -l 101010100
+Distance = 0
+E(4,9) = [101010100] = (2223) It is the Aksak rhythm of Turkey. It is also the metric pattern used by Dave Brubeck in his piece Rondo a la Turk.
+It is a Euclidean string.
+Distance = 1
+E(5,9) = [101010101] = (22221) It is a popular Arabic rhythm called Agsag-Samai. Started on the second onset, it is a drum pattern used by the Venda in South Africa, as well as a Rumanian folk-dance rhythm. It is also the rhythmic pattern of the Sigaktistos rhythm of Greece, and the Samai aktsak rhythm of Turkey. Started on the third onset, it is the rhythmic pattern of the Nawahiid rhythm of Turkey.
+It is a reverse Euclidean string.
+Distance = 2
+E(2,9) = [100010000] = (45)
+It is a Euclidean string.
+Distance = 3
+E(1,9) = [100000000] = (9)
+Distance = 3
+E(3,9) = [100100100] = (333)
+Distance = 3
+E(7,9) = [101110111] = (2112111) It is the Bazaragana rhythmic pattern of Greece.
+It is a reverse Euclidean string.
+Distance = 4
+E(6,9) = [101101101] = (212121)
+Distance = 4
+E(8,9) = [101111111] = (21111111)
+It is a reverse Euclidean string.
+```
+
+We assume that the user knows how the program works and doesn't make  wrong inputs.
+
+
+**More information:**
+
+* G.T. Toussaint, "The Euclidean algorithm generates traditional musical rhythms", in proceedings of BRIDGES: Mathematical Connections in Art, Music, and Science, Banff, Alberta, Canada, July 31 to August 3, 2005, pp. 47–56 ([http://cgm.cs.mcgill.ca/~godfried/publications/banff.pdf](http://cgm.cs.mcgill.ca/~godfried/publications/banff.pdf)).
+
+* Erik D. Demaine, Francisco Gomez-Martin, Henk Meijer, David Rappaport, Perouz Taslakian, Godfried T. Toussaint, Terry Winograd, and David R. Wood, "The Distance Geometry of Music", Computational Geometry: Theory and Applications, volume 42, number 5, July 2009, pp. 429–454. Special issue of selected papers from the 17th Canadian Conference on Computational Geometry, 2005 ([http://erikdemaine.org/papers/DeepRhythms_CGTA/paper.pdf](http://erikdemaine.org/papers/DeepRhythms_CGTA/paper.pdf)).
+
+* E. Bjorklund, "The Theory of Rep-Rate Pattern Generation in the SNS Timing System", SNS-NOTE-CNTRL-99, 1999 ([https://ics-web.sns.ornl.gov/timing/Rep-Rate%20Tech%20Note.pdf](https://ics-web.sns.ornl.gov/timing/Rep-Rate%20Tech%20Note.pdf)).

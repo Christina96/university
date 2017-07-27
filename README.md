@@ -180,21 +180,23 @@ In the context of the SEiP course, there is a course, students, instructors and 
 
 #### Exercise 2
 The Utility class has to methods.   
-**readFile:** Reads a file and return the result in an ArrayList.
-**writeFile:** Writes a file with the text that takes.
+* **readFile:** Reads a file and return the result in an ArrayList.
+* **writeFile:** Writes a file with the text that takes.
 
 #### Exercise 3
 The program compute the following metrics for Java code:
 * LOC (Lines of Code)
 * Number of classes
 * Number of methods 
+
 by using regular expressions to calculate the aforementioned metrics and use the read & write methods from the Utility class created in Exercise 2.
 
 #### Exercise 4
 The program compute the following metrics for Java code:
 * LOC (Lines of Code)
 * Number of classes
-* Number of methods.
+* Number of methods
+
 by using string comparison to calculate the aforementioned metrics. 
 
 #### Exercise 5

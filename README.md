@@ -167,4 +167,36 @@ We assume that the user knows how the program works and doesn't make  wrong inpu
 
 * Erik D. Demaine, Francisco Gomez-Martin, Henk Meijer, David Rappaport, Perouz Taslakian, Godfried T. Toussaint, Terry Winograd, and David R. Wood, "The Distance Geometry of Music", Computational Geometry: Theory and Applications, volume 42, number 5, July 2009, pp. 429–454. Special issue of selected papers from the 17th Canadian Conference on Computational Geometry, 2005 ([http://erikdemaine.org/papers/DeepRhythms_CGTA/paper.pdf](http://erikdemaine.org/papers/DeepRhythms_CGTA/paper.pdf)).
 
-* E. Bjorklund, "The Theory of Rep-Rate Pattern Generation in the SNS Timing System", SNS-NOTE-CNTRL-99, 1999 ([https://ics-web.sns.ornl.gov/timing/Rep-Rate%20Tech%20Note.pdf](https://ics-web.sns.ornl.gov/timing/Rep-Rate%20Tech%20Note.pdf)).
+* E.Bjorklund, "The Theory of Rep-Rate Pattern Generation in the SNS Timing System", SNS-NOTE-CNTRL-99, 1999 ([https://ics-web.sns.ornl.gov/timing/Rep-Rate%20Tech%20Note.pdf](https://ics-web.sns.ornl.gov/timing/Rep-Rate%20Tech%20Note.pdf)).
+
+## Java assignments
+
+They are from course **Software Engineering in Practice** writted by [Tushar Sharma](https://github.com/tushartushar) and [Antonios Gkortzis](https://github.com/AntonisGkortzis). The course is taught by [Diomidis Spinellis](https://github.com/dspinelliss), *Department of Management Science and Technology*, Athens University of Economics and Business. 
+
+### Assignment: Design Patterns
+
+#### Exercise 1
+In the context of the SEiP course, there is a course, students, instructors and organizers. The course has a start time and end time. If any of the timing changes, the stakeholders have to be notified. The program notifies the stakeholders whenever the time changes for the course.
+
+#### Exercise 2
+The Utility class has to methods.   
+**readFile:** Reads a file and return the result in an ArrayList.
+**writeFile:** Writes a file with the text that takes.
+
+#### Exercise 3
+The program compute the following metrics for Java code:
+* LOC (Lines of Code)
+* Number of classes
+* Number of methods 
+by using regular expressions to calculate the aforementioned metrics and use the read & write methods from the Utility class created in Exercise 2.
+
+#### Exercise 4
+The program compute the following metrics for Java code:
+* LOC (Lines of Code)
+* Number of classes
+* Number of methods.
+by using string comparison to calculate the aforementioned metrics. 
+
+#### Exercise 5
+Extend the program from Exercise 4 and implements a segregated interface to compute all the supported metrics. Write all he computed metrics to a CSV file.
+

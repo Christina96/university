@@ -5,7 +5,8 @@ Here you can find some of my university assignments.
 
 ## Python assignments
 
-They are from course **Algorithms and Data Structures** writted by [Panos Louridas](https://github.com/louridas), *Department of Management Science and Technology*, Athens University of Economics and Business. 
+They first three assignments are from course **Algorithms and Data Structures** writted by [Panos Louridas](https://github.com/louridas), *Department of Management Science and Technology*, Athens University of Economics and Business. The assignment "Handshakes Graph Construction Problem" is from course **Social Network Analysis** written by Dionysios Sotiropoulos, *Department of Management Science and Technology*, Athens University of Economics and Business.
+
 
 ### Assignment: Find networks in a graph
 
@@ -168,6 +169,24 @@ We assume that the user knows how the program works and doesn't make  wrong inpu
 * Erik D. Demaine, Francisco Gomez-Martin, Henk Meijer, David Rappaport, Perouz Taslakian, Godfried T. Toussaint, Terry Winograd, and David R. Wood, "The Distance Geometry of Music", Computational Geometry: Theory and Applications, volume 42, number 5, July 2009, pp. 429–454. Special issue of selected papers from the 17th Canadian Conference on Computational Geometry, 2005 ([http://erikdemaine.org/papers/DeepRhythms_CGTA/paper.pdf](http://erikdemaine.org/papers/DeepRhythms_CGTA/paper.pdf)).
 
 * E.Bjorklund, "The Theory of Rep-Rate Pattern Generation in the SNS Timing System", SNS-NOTE-CNTRL-99, 1999 ([https://ics-web.sns.ornl.gov/timing/Rep-Rate%20Tech%20Note.pdf](https://ics-web.sns.ornl.gov/timing/Rep-Rate%20Tech%20Note.pdf)).
+
+### Assignment: Handshakes Graph Construction Problem
+
+The new president of the United States of America, Donald Trump, held a dinner just after his inauguration at the presidential office. The dinner was held at the White House in Honor of the governors of the 50 states who attended the dinner accompanied by their spouses while the recently elected president was accompanied by the first lady of the U.S, Melania Trump. 
+
+At the end of the dinner, the president of the U.S. asked every single person that attended the dinner about the number of handshakes he/she gave including his spouse Melania. Given that he collected a list of different numbers of handshakes and that spouses didn’t
+interchanged handshakes amongst themselves, can you derive an algorithm that:
+
+**i.** Constructs a valid network of handshakes for the participants of the dinner. (Tip: The graph G = (V,E) to be constructed is one of the possible undirected graphs of |V| = 102 nodes in total. The graph is undirected in the sense that, if (vi ,vi) ε E --> (vj,vi) ε E. In other words, handshaking is a symmetric action.
+
+**ii.** Identifies the 50 pairs of spouses by the number of handshakes that have been conducted by each person.
+
+**iii.** Determines the number of handshakes conducted by Melania Trump.
+
+**iv.** Draws the network of handshakes.
+
+Your algorithm may be implemented by utilizing the Python programming language and the NetworkX module. Your code should be able to provide results for the generalized case where the number of governor-spouse pairs is k and, thus, the total number of nodes in the
+graph is |V| = 2*(k+1). 
 
 ## Java assignments
 

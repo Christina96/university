@@ -188,6 +188,20 @@ interchanged handshakes amongst themselves, can you derive an algorithm that:
 Your algorithm may be implemented by utilizing the Python programming language and the NetworkX module. Your code should be able to provide results for the generalized case where the number of governor-spouse pairs is k and, thus, the total number of nodes in the
 graph is |V| = 2*(k+1). 
 
+**An simple example:**
+
+We have 3 persons with their spouses and Melania and Donald Trump. 
+We have 3 + 3 + 2 = 8 nodes. 
+The list with their handshakes (including Melania) is:
+
+```
+handshakes = [6, 4, 5, 1, 3, 2, 2]
+```
+
+The Handshake Graph is:
+
+<img src="./handshake_graph/handshake_graph.png" width="250">
+
 ## Java assignments
 
 They are from course **Software Engineering in Practice** writted by [Tushar Sharma](https://github.com/tushartushar) and [Antonios Gkortzis](https://github.com/AntonisGkortzis). The course is taught by [Diomidis Spinellis](https://github.com/dspinelliss), *Department of Management Science and Technology*, Athens University of Economics and Business. 

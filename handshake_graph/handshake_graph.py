@@ -38,7 +38,7 @@ def handshakes_graph(handshakes):
 
 def main():
     """ The beginning of the program that calls the functions."""
-    handshakes = [i for i in range(0, 8)]
+    handshakes = [i for i in range(0, 101)]
     graph = handshakes_graph(handshakes)
     plt.figure(figsize=(16, 16))
     nx.draw_circular(graph, arrows=True, node_color='#A0CBE2', width=1,
